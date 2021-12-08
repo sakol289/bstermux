@@ -5,7 +5,7 @@ import os
 import sys
 import time
 import webbrowser
-from playsound import playsound
+#from playsound import playsound
 
 
 # ฟังชั้้นต่างๆ
@@ -49,7 +49,7 @@ memu = ('''
 
 ''')
 lowprint(memu)
-playsound('1.mp3')
+#playsound('1.mp3')
 x = int(input("ENTER NEMBER : "))
 if x == 1:
     os.system("pkg install wget -y;apt install wget -y;cd $HOME;cd ..;cd usr;cd etc;rm -rf bash.bashrc;wget https://raw.githubusercontent.com/sakol289/bashterumxv1/main/bash.bashrc")
