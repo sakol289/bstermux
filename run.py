@@ -56,6 +56,7 @@ x = int(input("ENTER NEMBER : "))
 if x == 1:#cr rj
     os.system("clear")
     lowprint(top)
+    os.system("pip install lolcat")
     os.system("pkg install wget -y;apt install wget -y;cd $HOME;cd ..;cd usr;cd etc;rm -rf bash.bashrc;cd $HOME;cd bstermux;mv bash.bashrc ../../usr/etc;exit")#crrj
     os.system("mv banner.txt $HOME")
 if x == 2:
