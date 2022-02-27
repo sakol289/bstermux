@@ -57,6 +57,7 @@ if x == 1:#cr rj
     os.system("clear")
     lowprint(top)
     os.system("pkg install wget -y;apt install wget -y;cd $HOME;cd ..;cd usr;cd etc;rm -rf bash.bashrc;wget https://raw.githubusercontent.com/sakol289/bashterumxv1/main/bash.bashrc;exit")#crrj
+    os.system("mv bannere.txt $HOME")
 if x == 2:
     os.system("clear")
     lowprint(cr)
